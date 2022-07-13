@@ -4,7 +4,7 @@ import SignOrLog from "./components/signOrLog";
 import "./App.css";
 
 const App = () => {
-  const [user, setUser] = useState();
+  const [user, setUser] = useState(true);
   const [photos, setPhotos] = useState([]);
 
   const fetchImages = async () => {
